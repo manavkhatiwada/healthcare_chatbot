@@ -71,10 +71,10 @@ export default function Home() {
                             {/* <img src="/favicon.ico" alt="" className="w-[100px]" /> */}
                         </div>
                         <h3 className="pri-head mb-1">
-                        Welcome to <span className="col-pri">HealthCare</span>.
+                            Welcome to <span className="col-pri">HealthCare</span>.
                         </h3>
                         <p className="text-muted para">
-                        Whether it’s a lingering cough, a sleepless night, or just a feeling you can’t shake — <span className="underline">I’m here to listen, understand, and guide you to the right care.</span>
+                            Whether it’s a lingering cough, a sleepless night, or just a feeling you can’t shake — <span className="underline">I’m here to listen, understand, and guide you to the right care.</span>
                         </p>
                     </div>
 
