@@ -10,18 +10,19 @@ export default function Navbar({ }) {
             <div className="max-w-[1400px] fcb w-full mx-auto">
                 <Link href={"/"} className="fc gap-3">
                     <img src="/favicon.ico" alt="" className="w-[40px]" />
-                    <h2 className="text-2xl">HealthCare</h2>
+                    <h2 className="text-2xl">Pocket Doctor</h2>
                 </Link>
                 <div className="fcb gap-5 text-gray-600 font-medium">
-                    <a href="https://portfolio.rohan-koirala.com.np/">Dashboard</a>
-                    <a href="https://portfolio.rohan-koirala.com.np/">Pricing</a>
-                    <a href="https://portfolio.rohan-koirala.com.np/">Docs</a>
-                    <a href="https://portfolio.rohan-koirala.com.np/">Developer API</a>
-                    <TbCategory size={25} className="ml-3" />
-                    <Link class="flex py-[2px] pl-[2px] overflow-hidden gap-2 items-center rounded-3xl border-sec pr-2 transition-all duration-300" href="#">
-                        <img src="/favicon.ico" class="w-[30px] h-[30px] p-1 rounded-3xl border-[#b1b1b1]" />
-                        <span class="overflow-hidden text-nowrap text-ellipsis">Hi, There</span>
-                    </Link>
+                    <a href="https://portfolio.rohan-koirala.com.np/">About</a>
+                    <a href="https://portfolio.rohan-koirala.com.np/">Chat</a>
+                    <a href="https://portfolio.rohan-koirala.com.np/">Appoinment</a>
+                    <a href="https://portfolio.rohan-koirala.com.np/">Contact</a>
+                    <button className="button-sec">
+                        Login
+                    </button>
+                    <button className="button-pri">
+                        SignUp
+                    </button>
                 </div>
             </div>
         </nav>
