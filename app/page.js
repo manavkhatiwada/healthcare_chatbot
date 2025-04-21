@@ -31,6 +31,11 @@ export default function Home() {
     }
 
     async function fetchStory(prompt) {
+        let new_prompt = chats.map(_item => {
+            return `${_item?.from === "ai" ? "BOT" : "USER"}: ${_item?.message}\n`
+        }).join("")
+        prompt = new_prompt + `USER: ${prompt}`
+
         let response = await server.POST("/v1/lama/generate/story", {
             "prompt": prompt
         })

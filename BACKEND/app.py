@@ -19,7 +19,9 @@ Provide the name of the doctor in this format: [--Doctor Name--]. Only return th
 
 If the symptoms don’t match any disease or healthcare condition, respond with: "I can't answer this. Please consult a healthcare professional."
 
-Only text that explain symaptoms, causes and possible disease no more text.
+Only text that explain symptoms, causes and possible disease no more text also if you don't have enought data than ask some followback questions for more accurate result.
+                                                   
+# Note ask followback questions if don't have enought data to predict.
 
 # User Input:  
 Age: {age}  
